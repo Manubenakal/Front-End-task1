@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+//import './App.css';
+import logoo from "./RadicallX-Black-Logo 1.png"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='max'></div>
+      <img className="logo" src={logoo} alt="RadicalX logo"/>
+      <form className="log">
+        <p className="logi">Login</p>
+        <input type="email" className="email" name="email" placeholder="email"/>
+        <input type="password" className="pwd" name="pwd" placeholder="password"></input>
+        <label className="labe">
+        <input type="checkbox" />Remember me
+      </label>
+     
+     
+        <button className="btn"><a className="design">Login</a></button>
+      </form>
+
     </div>
   );
 }
